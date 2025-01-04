@@ -1,5 +1,11 @@
 just an attempt to try to create a local RAG system that can help easily understand complex documents
 
+# Run:
+1. Clone the code and install the dependencies specified in [requirements.txt](./requirements.txt)
+2. Add a pdf that you want to _chat_ with
+3. Have ollama running (preferably with the specified qwen model for the best results)
+4. run `python conversations.py <path to pdf>`
+
 ## Specifications:
 
 - embedding model: `mxbai-embed-large`
