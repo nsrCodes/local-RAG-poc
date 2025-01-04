@@ -13,6 +13,11 @@ just an attempt to try to create a local RAG system that can help easily underst
 - model server was run using `ollama`  (it is really hard to run these models via code and keep them dynamic during this POC stage, might pickup later)
 - mostly built with `langchain` (no preference, just the first framework that got suggested)
 
+### Features:
+
+- keeps context of history of chat
+- does not re-embed a document if they already exist
+
 ---
 
 _requirements.txt generated using `pip3 freeze > requirements.txt`_
